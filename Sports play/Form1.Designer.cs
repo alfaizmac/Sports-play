@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.userControl11 = new Sports_play.UserControl1();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // userControl11
@@ -40,24 +41,36 @@
             this.userControl11.Size = new System.Drawing.Size(1904, 1041);
             this.userControl11.TabIndex = 0;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(675, 144);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "label1";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ClientSize = new System.Drawing.Size(1904, 1041);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.userControl11);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private UserControl1 userControl11;
+        private System.Windows.Forms.Label label1;
     }
 }
 
