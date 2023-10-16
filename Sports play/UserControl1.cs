@@ -50,5 +50,27 @@ namespace Sports_play
         {
             sidebartimer.Start();
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_MouseHover(object sender, EventArgs e)
+        {
+            ToolTip t = new ToolTip();
+            t.SetToolTip(this.label3, "Basketball Scorer is now Available");
+
+        }
+
+        private void label3_MouseHover_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BballSelectBut_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

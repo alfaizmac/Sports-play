@@ -34,20 +34,29 @@
             this.screen2ndpanel = new System.Windows.Forms.Panel();
             this.sidebar = new System.Windows.Forms.FlowLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.LightMenuB = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.LightHomeB = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.LightSettingB = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.LightHelpB = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.sidebartimer = new System.Windows.Forms.Timer(this.components);
+            this.LightAboutB = new System.Windows.Forms.Button();
             this.panelhome = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.LightMenuB = new System.Windows.Forms.Button();
-            this.LightHomeB = new System.Windows.Forms.Button();
-            this.LightSettingB = new System.Windows.Forms.Button();
-            this.LightHelpB = new System.Windows.Forms.Button();
-            this.LightAboutB = new System.Windows.Forms.Button();
+            this.BballSelectPanel = new System.Windows.Forms.Panel();
+            this.sidebartimer = new System.Windows.Forms.Timer(this.components);
+            this.ttUpdate = new System.Windows.Forms.ToolTip(this.components);
+            this.BballLabel = new System.Windows.Forms.Label();
+            this.BballSelectBut = new Sports_play.MAMRoundButton();
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.BballSelectionsPanel = new System.Windows.Forms.Panel();
+            this.BballScorerBut = new Sports_play.MAMRoundButton();
             this.screeningpanel.SuspendLayout();
             this.screen2ndpanel.SuspendLayout();
             this.sidebar.SuspendLayout();
@@ -59,6 +68,9 @@
             this.panelhome.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.BballSelectPanel.SuspendLayout();
+            this.panel7.SuspendLayout();
+            this.BballSelectionsPanel.SuspendLayout();
             this.SuspendLayout();
             // 
             // screeningpanel
@@ -120,81 +132,6 @@
             this.panel1.Size = new System.Drawing.Size(250, 92);
             this.panel1.TabIndex = 2;
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.LightHomeB);
-            this.panel2.Location = new System.Drawing.Point(3, 101);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(250, 67);
-            this.panel2.TabIndex = 2;
-            // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.LightSettingB);
-            this.panel3.Location = new System.Drawing.Point(3, 174);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(250, 67);
-            this.panel3.TabIndex = 3;
-            // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.LightHelpB);
-            this.panel4.Location = new System.Drawing.Point(3, 247);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(250, 67);
-            this.panel4.TabIndex = 3;
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.LightAboutB);
-            this.panel5.Location = new System.Drawing.Point(3, 320);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(250, 67);
-            this.panel5.TabIndex = 4;
-            // 
-            // sidebartimer
-            // 
-            this.sidebartimer.Interval = 10;
-            this.sidebartimer.Tick += new System.EventHandler(this.sidebartimer_Tick);
-            // 
-            // panelhome
-            // 
-            this.panelhome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.panelhome.Controls.Add(this.pictureBox1);
-            this.panelhome.Controls.Add(this.pictureBox3);
-            this.panelhome.Controls.Add(this.panel6);
-            this.panelhome.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelhome.Location = new System.Drawing.Point(0, 0);
-            this.panelhome.Name = "panelhome";
-            this.panelhome.Size = new System.Drawing.Size(1920, 1080);
-            this.panelhome.TabIndex = 1;
-            // 
-            // panel6
-            // 
-            this.panel6.BackColor = System.Drawing.Color.Gray;
-            this.panel6.Location = new System.Drawing.Point(578, 552);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(844, 398);
-            this.panel6.TabIndex = 2;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Sports_play.Properties.Resources.arrow_left_circle__2_;
-            this.pictureBox1.Location = new System.Drawing.Point(418, 702);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(98, 98);
-            this.pictureBox1.TabIndex = 6;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Sports_play.Properties.Resources.arrow_right_circle__2_;
-            this.pictureBox3.Location = new System.Drawing.Point(1484, 702);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(98, 98);
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            // 
             // LightMenuB
             // 
             this.LightMenuB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
@@ -212,6 +149,14 @@
             this.LightMenuB.UseVisualStyleBackColor = false;
             this.LightMenuB.Click += new System.EventHandler(this.LightMenuB_Click);
             // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.LightHomeB);
+            this.panel2.Location = new System.Drawing.Point(3, 101);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(250, 67);
+            this.panel2.TabIndex = 2;
+            // 
             // LightHomeB
             // 
             this.LightHomeB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
@@ -227,6 +172,14 @@
             this.LightHomeB.Text = "               Home";
             this.LightHomeB.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.LightHomeB.UseVisualStyleBackColor = false;
+            // 
+            // panel3
+            // 
+            this.panel3.Controls.Add(this.LightSettingB);
+            this.panel3.Location = new System.Drawing.Point(3, 174);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(250, 67);
+            this.panel3.TabIndex = 3;
             // 
             // LightSettingB
             // 
@@ -244,6 +197,14 @@
             this.LightSettingB.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.LightSettingB.UseVisualStyleBackColor = false;
             // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.LightHelpB);
+            this.panel4.Location = new System.Drawing.Point(3, 247);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(250, 67);
+            this.panel4.TabIndex = 3;
+            // 
             // LightHelpB
             // 
             this.LightHelpB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
@@ -260,6 +221,14 @@
             this.LightHelpB.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.LightHelpB.UseVisualStyleBackColor = false;
             // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.LightAboutB);
+            this.panel5.Location = new System.Drawing.Point(3, 320);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(250, 67);
+            this.panel5.TabIndex = 4;
+            // 
             // LightAboutB
             // 
             this.LightAboutB.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(43)))), ((int)(((byte)(43)))), ((int)(((byte)(43)))));
@@ -275,6 +244,157 @@
             this.LightAboutB.Text = "               About";
             this.LightAboutB.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.LightAboutB.UseVisualStyleBackColor = false;
+            // 
+            // panelhome
+            // 
+            this.panelhome.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
+            this.panelhome.Controls.Add(this.label3);
+            this.panelhome.Controls.Add(this.label2);
+            this.panelhome.Controls.Add(this.label1);
+            this.panelhome.Controls.Add(this.pictureBox1);
+            this.panelhome.Controls.Add(this.pictureBox3);
+            this.panelhome.Controls.Add(this.panel7);
+            this.panelhome.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelhome.Location = new System.Drawing.Point(0, 0);
+            this.panelhome.Name = "panelhome";
+            this.panelhome.Size = new System.Drawing.Size(1920, 1080);
+            this.panelhome.TabIndex = 1;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.label3.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label3.Location = new System.Drawing.Point(274, 320);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(143, 25);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "What\'s new?     ";
+            this.ttUpdate.SetToolTip(this.label3, "Basketball scorer is now Available");
+            this.label3.MouseHover += new System.EventHandler(this.label3_MouseHover_1);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Impact", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.label2.Location = new System.Drawing.Point(271, 218);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(322, 86);
+            this.label2.TabIndex = 8;
+            this.label2.Text = "Easiest way to record\nyour sports event.";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Impact", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.label1.Location = new System.Drawing.Point(259, 101);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(528, 117);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "SPORTS Play";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Sports_play.Properties.Resources.arrow_left_circle__2_;
+            this.pictureBox1.Location = new System.Drawing.Point(415, 702);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(98, 98);
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Sports_play.Properties.Resources.arrow_right_circle__2_;
+            this.pictureBox3.Location = new System.Drawing.Point(1481, 702);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(98, 98);
+            this.pictureBox3.TabIndex = 5;
+            this.pictureBox3.TabStop = false;
+            // 
+            // BballSelectPanel
+            // 
+            this.BballSelectPanel.BackColor = System.Drawing.Color.RosyBrown;
+            this.BballSelectPanel.Controls.Add(this.BballSelectBut);
+            this.BballSelectPanel.Controls.Add(this.BballLabel);
+            this.BballSelectPanel.Location = new System.Drawing.Point(471, 81);
+            this.BballSelectPanel.Name = "BballSelectPanel";
+            this.BballSelectPanel.Size = new System.Drawing.Size(486, 245);
+            this.BballSelectPanel.TabIndex = 2;
+            // 
+            // sidebartimer
+            // 
+            this.sidebartimer.Interval = 10;
+            this.sidebartimer.Tick += new System.EventHandler(this.sidebartimer_Tick);
+            // 
+            // ttUpdate
+            // 
+            this.ttUpdate.AutomaticDelay = 0;
+            this.ttUpdate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.ttUpdate.StripAmpersands = true;
+            this.ttUpdate.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
+            this.ttUpdate.ToolTipTitle = "NEW UPDATE:";
+            // 
+            // BballLabel
+            // 
+            this.BballLabel.AutoSize = true;
+            this.BballLabel.Font = new System.Drawing.Font("Impact", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BballLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(26)))), ((int)(((byte)(26)))), ((int)(((byte)(26)))));
+            this.BballLabel.Location = new System.Drawing.Point(304, 13);
+            this.BballLabel.Name = "BballLabel";
+            this.BballLabel.Size = new System.Drawing.Size(237, 60);
+            this.BballLabel.TabIndex = 10;
+            this.BballLabel.Text = "Basketball";
+            // 
+            // BballSelectBut
+            // 
+            this.BballSelectBut.BackColor = System.Drawing.Color.Transparent;
+            this.BballSelectBut.FlatAppearance.BorderSize = 0;
+            this.BballSelectBut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BballSelectBut.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BballSelectBut.ForeColor = System.Drawing.Color.White;
+            this.BballSelectBut.Location = new System.Drawing.Point(331, 316);
+            this.BballSelectBut.Name = "BballSelectBut";
+            this.BballSelectBut.Size = new System.Drawing.Size(171, 56);
+            this.BballSelectBut.TabIndex = 11;
+            this.BballSelectBut.Text = "Select";
+            this.BballSelectBut.UseVisualStyleBackColor = false;
+            // 
+            // panel7
+            // 
+            this.panel7.BackColor = System.Drawing.Color.Gray;
+            this.panel7.Controls.Add(this.BballSelectionsPanel);
+            this.panel7.Controls.Add(this.BballSelectPanel);
+            this.panel7.Location = new System.Drawing.Point(575, 552);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(844, 398);
+            this.panel7.TabIndex = 12;
+            // 
+            // BballSelectionsPanel
+            // 
+            this.BballSelectionsPanel.BackColor = System.Drawing.Color.Salmon;
+            this.BballSelectionsPanel.Controls.Add(this.BballScorerBut);
+            this.BballSelectionsPanel.Location = new System.Drawing.Point(41, 57);
+            this.BballSelectionsPanel.Name = "BballSelectionsPanel";
+            this.BballSelectionsPanel.Size = new System.Drawing.Size(422, 398);
+            this.BballSelectionsPanel.TabIndex = 12;
+            // 
+            // BballScorerBut
+            // 
+            this.BballScorerBut.BackColor = System.Drawing.Color.Transparent;
+            this.BballScorerBut.FlatAppearance.BorderSize = 0;
+            this.BballScorerBut.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BballScorerBut.Font = new System.Drawing.Font("Century Gothic", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BballScorerBut.ForeColor = System.Drawing.Color.White;
+            this.BballScorerBut.Location = new System.Drawing.Point(129, 321);
+            this.BballScorerBut.Name = "BballScorerBut";
+            this.BballScorerBut.Size = new System.Drawing.Size(171, 56);
+            this.BballScorerBut.TabIndex = 14;
+            this.BballScorerBut.Text = "Select";
+            this.BballScorerBut.UseVisualStyleBackColor = false;
             // 
             // UserControl1
             // 
@@ -295,8 +415,13 @@
             this.panel4.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.panelhome.ResumeLayout(false);
+            this.panelhome.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.BballSelectPanel.ResumeLayout(false);
+            this.BballSelectPanel.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.BballSelectionsPanel.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -319,8 +444,17 @@
         private System.Windows.Forms.Button LightMenuB;
         private System.Windows.Forms.Timer sidebartimer;
         private System.Windows.Forms.Panel panelhome;
-        private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.Panel BballSelectPanel;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.ToolTip ttUpdate;
+        private System.Windows.Forms.Label BballLabel;
+        private MAMRoundButton BballSelectBut;
+        private System.Windows.Forms.Panel BballSelectionsPanel;
+        private System.Windows.Forms.Panel panel7;
+        private MAMRoundButton BballScorerBut;
     }
 }
